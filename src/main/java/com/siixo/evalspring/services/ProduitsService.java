@@ -14,7 +14,7 @@ public class ProduitsService {
 
     /**
      *
-     * @param le produit à ajouter
+     * @param Produit Le Produit à ajouter
      * @return Le produit ajouté avec son id généré
      * @throws ProduitInvalideException si le produit est null
      */
