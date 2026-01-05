@@ -28,4 +28,7 @@ public class Produits {
     @Column(nullable = false)
     private float prix;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "categorie_id", nullable = true)
+    private Categorie categorie;
 }
